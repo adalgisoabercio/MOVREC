@@ -5,18 +5,18 @@ export default function leftbar(){
     <div class="LeftbarMainContainer">
       <div class="website-logo">ADP<span class="dot">.</span></div>
       <div>
-        <p>Menu</p>
+        <p class="menu-font">Menu</p>
         <ul>
             <li>
-                <img src="" alt=""/>
+                <img src="" class="leftbar-icon" alt=""/>
                 <p class ="leftbar-item">Browse</p>
             </li>
             <li>
-                <img src="" alt=""/>
+                <img src="" class="leftbar-icon"  alt=""/>
                 <p class ="leftbar-item">Watchlist</p>
             </li>
             <li>
-                <img src="" alt=""/>
+                <img src="" class="leftbar-icon" alt=""/>
                 <p class ="leftbar-item">Coming Soon</p>
             </li>
         </ul>
