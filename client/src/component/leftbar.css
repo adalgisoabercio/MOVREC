@@ -4,14 +4,23 @@
 	height:100vh,
 }
 
-
 .websitename{
 	color:white;
 	margin-left :1rem;
 	font-weight:400;
 }
-
 .dot{
 	color:red;
 	font-weight:400;
+}
+.leftbar-item{
+    color:white;
+}
+li {
+    list-style:none;
+    display:flex;
+}
+.menu-font{
+    color:white;
+    margin-left:1rem;
 }
