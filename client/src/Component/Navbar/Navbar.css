@@ -90,3 +90,27 @@
     position: absolute;
   }
   
+  .search-form{ 
+    height:44px;
+
+  }
+  .nav-search2 {
+    background-image:url('./search.svg');
+    margin-right:3px;
+    margin-top:4px;
+    width: 15px;
+    height: 15px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
+  .search-form input{ 
+    width:100px;
+    height:43px;
+    background:transparent;
+    color:#fff;
+    border:none;
+    outline:none;
+    font-size:14px;
+  }
+  
