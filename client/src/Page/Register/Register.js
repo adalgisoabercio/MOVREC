@@ -12,7 +12,9 @@ export default function Register() {
       </div>
       <div className="container">
         <form>
-          <h1>Sign In</h1>
+          <h1>Register</h1>
+          <input type="text" placeholder="User Name" />
+          <input type="number" placeholder="Years Old" />
           <input type="email" placeholder="Email or phone number" />
           <input type="password" placeholder="Password" />
           <button className="loginButton">Register</button>
