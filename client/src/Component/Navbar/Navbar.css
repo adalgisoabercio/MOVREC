@@ -27,6 +27,9 @@
   	text-shadow:0 0 20px #66a3ff;
   	opacity:0.8;
   }
+  .item-navbar{
+    font-weight:bold;
+  }
   .item-navbar:hover{
   	text-shadow:0 0 20px #66a3ff;
   	opacity:0.8; 
