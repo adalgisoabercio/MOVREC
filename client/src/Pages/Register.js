@@ -1,4 +1,4 @@
-import "./ast/Register.css";
+import "./Style/Register.css"
 
 export default function Register() {
   return (

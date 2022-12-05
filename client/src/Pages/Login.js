@@ -1,5 +1,5 @@
-import "./ast/Login.css";
-import Google from "./ast/google.png";
+import "./Style/Login.css";
+import Google from "../Assets/google.png";
 
 export default function Login() {
   return (
