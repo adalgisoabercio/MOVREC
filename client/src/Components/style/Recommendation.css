@@ -1,12 +1,13 @@
 .featured { 
     height: 100vh;
+    width:100%;
     position: relative;
     z-index: 1;
     overflow: hidden;
   }
 .featured .image {
     position:absolute;
-    z-index: -100;
+    z-index: -1;
     overflow: hidden;
     width: 100%;
     height: 100%;
