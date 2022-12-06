@@ -1,5 +1,5 @@
 import "./style/Recommendation.css";
-import IMG from "./style/IMG.jpg";
+import IMG from "../Assets/IMG.jpg";
 export default function Recommendation() {
   return (
     <div className="featured">
