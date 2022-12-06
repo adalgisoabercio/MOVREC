@@ -4,7 +4,7 @@ This is Movie Recommendation Dashboard, provide a suggested movie, trendings, an
 Feature in Future
 - Recommendations by Adjective
 - Dark Mode User Interface
-- Dashboard-Looks WEb Applications, provided users to track,analyze, and similar to do
+- Dashboard-Looks Web Applications, provided users to track, analyze, and similar to do
 - CRUD and Authentication
 - Public API (in development future)
 
