@@ -1,13 +1,24 @@
-The Python Back End Configuration
-- Flask
-- Pandas
-- Scikit Learn
+# MOVREC Back End Developement Environment
+
+## Web Application Server
+The Projects itself are develop by using Flask as main library for Back End Processing. There are several libriaries,
+- Flask 
+- Flask SQLAlchemy
+- Flask JWT Extended
+- Flask Restx
+- Python Decouple
 - etc
 
-Dataset Sources
-- https://datasets.imdbws.com/, https://www.imdb.com/interfaces/
-- https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
-- https://www.lafabbricadellarealta.com/open-data-entertainment/
+Also the all packages and versions can be check [HERE](Pipfile)
+
+The Libraries are downloaded and generated with [python-pipenv](https://pipenv.pypa.io/en/latest/) based, The Python Virtual Package Environment. For installing can check [HERE](https://pipenv.pypa.io/en/latest/#install-pipenv-today). Also the python-pipenv important commands are [Here](https://gist.github.com/bradtraversy/c70a93d6536ed63786c434707b898d55)
+
+
+## Recommendation System
+The 
+
+
+## Deployment
 
 Set Up the Developement
 ```

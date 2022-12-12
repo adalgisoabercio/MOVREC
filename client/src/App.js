@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 // import leftbar from './components/leftbar.js';
 // import './style/App.css';
-import Home from './Pages/Home'
+import Home from './Pages/Home';
+import Register from './Pages/Register';
+import Login from './Pages/Login';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
     // </div>
     // <div className="App">
     <div>
-      <Home />
+      {/* <Home /> */}
+      <Register />
+      {/* <Login /> */}
     </div>
   );
 }

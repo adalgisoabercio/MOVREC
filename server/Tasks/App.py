@@ -2,7 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_restx import Api, Resource
 from config import DevCONFIG
-from Database.Models import Users_DB
+from Database import Users
 # from Database.Models.Users_DB import db
 # from Database.Users import db
 

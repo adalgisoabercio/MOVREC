@@ -5,6 +5,23 @@
 # from Database.DSA.Linked_List import LinkedList
 
 
+# def save(self):
+#         db.session.add(self)
+#         db.session.commit()
+
+#     def delete(self):
+#         db.session.delete(self)
+#         db.session.commit()
+
+#     def save(self, name, email, phone, address):
+#         self.name = name
+#         self.email = email
+#         self.phone = phone
+#         self.address = address
+#         db.session.add(self)
+#         db.session.commit()
+
+
 # # Connecting the Object Relational Mapper to the Flask Applications
 # db = SQLAlchemy()
 # now = datetime.now()
