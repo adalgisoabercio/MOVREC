@@ -1,6 +1,7 @@
 import React from 'react';
 import './style/Navbar.css'
 import Search from './Search.js';
+import { Link } from "react-router-dom";
 const Navbar = () => {
     var navbar = document.querySelector ('#navbar');
     document.addEventListener('scroll', () => { 
@@ -25,7 +26,7 @@ const Navbar = () => {
                     <Search/>
                 </div>
                 <div className="right">
-                    Login
+                    <Link to="Login">Login</Link>
                     <div className="profile">
                         <div className="options">
                         <span>Settings</span>
