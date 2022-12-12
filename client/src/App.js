@@ -1,10 +1,14 @@
 // import logo from './logo.svg';
 // import leftbar from './components/leftbar.js';
 // import './style/App.css';
-import Home from './Pages/Home';
-import Register from './Pages/Register';
-import Login from './Pages/Login';
-
+import Home from './Pages/Home'
+import Login from './Pages/Login'
+import Register from './Pages/Register'
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 function App() {
   return (
     // <div className="App">
@@ -25,9 +29,17 @@ function App() {
     // </div>
     // <div className="App">
     <div>
-      {/* <Home /> */}
-      <Register />
-      {/* <Login /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={ <Home/> }  />
+        </Routes>
+        <Routes>
+          <Route path="/Login" element={ <Login/> }  />
+        </Routes>
+        <Routes>
+          <Route path="/Register" element={ <Register/> }  />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
