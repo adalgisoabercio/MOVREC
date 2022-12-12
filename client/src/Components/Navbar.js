@@ -1,5 +1,6 @@
 import React from 'react';
 import './style/Navbar.css'
+import Search from './Search.js';
 const Navbar = () => {
     var navbar = document.querySelector ('#navbar');
     document.addEventListener('scroll', () => { 
@@ -21,12 +22,7 @@ const Navbar = () => {
                         <span className="item-navbar">Movies</span>
                         <span className="item-navbar">My List</span>
                     </div>
-                    <i class="nav-search2"></i>
-                    <div class="search-form" id="searchform">
-                        <form action="" method="post">
-                            <input type="text" name="search" placeholder="Search here" id="keyword"/>
-                        </form>
-                    </div>
+                    <Search/>
                 </div>
                 <div className="right">
                     Login
