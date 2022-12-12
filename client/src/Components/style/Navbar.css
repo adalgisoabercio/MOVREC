@@ -49,7 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
+    height: 60px;
   }
   .navbar .container .left {
     display: flex;
@@ -98,9 +98,9 @@
 
   }
   .nav-search2 {
-    /* background-image:url('./search.svg'); */
+    background-image:url('../../Assets/search.svg'); 
     margin-right:3px;
-    margin-top:4px;
+    margin-top:2px;
     width: 15px;
     height: 15px;
     background-repeat:no-repeat;
