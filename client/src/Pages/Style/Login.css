@@ -1,107 +1,106 @@
 @keyframes hue {
-    from{
-        filter: hue-rotate(0);
-    }
-    to{
-        filter: hue-rotate(360deg);
-    }
+  from{
+      filter: hue-rotate(0);
+  }
+  to{
+      filter: hue-rotate(360deg);
+  }
 }
 .login {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../../Assets/movie_poster.jpg");
-    background-size: cover;
-    position: relative;
-	z-index: 1;
-  }
-  .logo {
-    font-size:25px;
-    font-weight:bold;
-    color:white;
-  }
-  .logo span{
-    color:blue;
-    animation: hue 15s infinite alternate;
-  }
-  .logo:hover{
-    text-shadow:0 0 20px #66a3ff;
-    opacity:0.8;
-  }
-  .login .top .wrapper {
-    padding: 20px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .login .top .wrapper .logo {
-    height: 40px;
-  }
-  .login .container {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
-  .login .container form {
-    width: 300px;
-    height: 350px;
-    padding: 30px;
-    border-radius: 5px;
-    background-color: var(--main-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .login .container form input {
-    height: 40px;
-    border-radius: 5px;
-    background-color: white;
-    color: black;
-    padding-left: 10px;
-  }
-  .login .container form input::placeholder {
-    color:black;
-  }
-  .login .container form button {
-    height: 40px;
-    border-radius: 5px;
-    background:rgba(36,27,42,1);
-    color: white;
-    border: none;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    animation: hue 15s infinite alternate;
-  }
-  .login .container .loginButton-google {
-    display:flex;
-    height: 45px;
-    border-radius: 5px;
-    background:white;
-    color: black;
-    border: none;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    text-align:center;
-    padding-top:10px;
-    animation: none;
-  }
-  .login .container .loginButton-google img{
-    margin-top:2px;
-    margin-right:15px;
-    margin-left:7px;
-  }
-  .login .container form span {
-    color: lightgray;
-  }
-  .login .container form span b {
-    color: white;
-  }
-  
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../../Assets/movie_poster.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.logo {
+  font-size:25px;
+  font-weight:bold;
+  color:white;
+}
+.logo span{
+  color:blue;
+  animation: hue 15s infinite alternate;
+}
+.logo:hover{
+  text-shadow:0 0 20px #66a3ff;
+  opacity:0.8;
+}
+.login .top .wrapper {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login .top .wrapper .logo {
+  height: 40px;
+}
+.login .container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.login .container form {
+  width: 300px;
+  height: 350px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.login .container form input {
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+}
+.login .container form input::placeholder {
+  color:black;
+}
+.login .container form button {
+  height: 40px;
+  border-radius: 5px;
+  background:rgba(36,27,42,1);
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  animation: hue 15s infinite alternate;
+}
+.login .container .loginButton-google {
+  display:flex;
+  height: 45px;
+  border-radius: 5px;
+  background:white;
+  color: black;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align:center;
+  padding-top:10px;
+  animation: none;
+}
+.login .container .loginButton-google img{
+  margin-top:2px;
+  margin-right:15px;
+  margin-left:7px;
+}
+.login .container form span {
+  color: lightgray;
+}
+.login .container form span b {
+  color: white;
+}
