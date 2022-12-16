@@ -6,6 +6,9 @@
       filter: hue-rotate(360deg);
   }
 }
+body {
+  margin: 0;
+}
 .navbar {
     width: 100%;
     color:white;
