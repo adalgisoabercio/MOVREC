@@ -1,6 +1,7 @@
 body {
   background: black;
   margin-top: 40px;
+  height:auto;
 }
 .App {
   width: 90%;
