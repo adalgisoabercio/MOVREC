@@ -4,6 +4,7 @@
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
+// import  Recommendation from "./Components/MovieItem";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/Register" element={<Register />} />
         </Routes>
       </BrowserRouter>
+
     </div>
   );
 }
