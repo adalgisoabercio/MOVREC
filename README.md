@@ -16,8 +16,7 @@ Feature in Future
 - Recommendations System: 
 - Others Considerations:  
 
-## Presentations Slide
----
+## MOVREC Presentation Informations 
 ### Project Introductions Slide
 https://docs.google.com/presentation/d/1yiZkEidyytj8A77P0zNe2CUIxlcd2XNigAmOqKwYb1E/edit?usp=sharing
 
@@ -27,15 +26,13 @@ https://docs.google.com/presentation/d/1E3WFS3Kv0EHJFLn82SuLeH5SlZoeodlM1-M6EYUs
 ### System Analyst
 https://docs.google.com/presentation/d/1DJGbkC7q5uainoBFK4JQN-5zWB1SAEaO9qZ4MF1SvA4/edit?usp=sharing
 
-## Use Case Diagram
+### Class Diagram
 
-## Class Diagram
+### Entity Relationship Diagram
 
-## Entity Relationship Diagram
+### Swimlane Diagram
 
-## Swimlane Diagram
-
-## Data Flow Diagram
+### Data Flow Diagram
 
 ---
 ## Progress Tracker 

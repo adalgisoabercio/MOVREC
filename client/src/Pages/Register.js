@@ -1,3 +1,9 @@
+// Connections and Default Dependencies
+import React from 'react'
+import axios from 'react-axios'
+import Config from '../Config/defaultConfig'
+
+// Styles
 import "./Style/Register.css"
 
 export default function Register() {

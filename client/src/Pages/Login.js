@@ -1,5 +1,6 @@
 import "./Style/Login.css";
 import Google from "../Assets/google.png";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
@@ -18,13 +19,16 @@ export default function Login() {
           <input type="password" placeholder="Password" />
           <button className="loginButton">Sign In</button>
           <span>
-            New? <b>Sign up now.</b>
+            <Link to="/Register">
+              New? <b>Sign up now.</b>
+            </Link>
           </span>
           <button className="loginButton-google">
-            <img src={Google} width="23" height="23" alt="cam"/>Sign In Using Google</button>
+            <img src={Google} width="23" height="23" alt="cam" />
+            Sign In Using Google
+          </button>
         </form>
       </div>
     </div>
   );
 }
-
