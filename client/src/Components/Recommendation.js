@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSlider, { Slide, Nav } from "hero-slider";
-import { PlayArrow } from "@material-ui/icons";
+import { InfoOutlined } from "@material-ui/icons";
 // Images
 import "./style/Recommendation.css";
 
@@ -37,7 +37,7 @@ const Recommendation = () => {
             <h1 className="title">Movie Name</h1>
             <div className="buttons">
               <button className="play">
-                <PlayArrow /> <span>Play Now</span>
+                <InfoOutlined /> <span>More Info</span>
               </button>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Recommendation = () => {
             <h1 className="title">Movie Name</h1>
             <div className="buttons">
               <button className="play">
-                <PlayArrow /> <span>Play Now</span>
+                <InfoOutlined /> <span>More Info</span>
               </button>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Recommendation = () => {
             <h1 className="title">Movie Name</h1>
             <div className="buttons">
               <button className="play">
-                <PlayArrow /> <span>Play Now</span>
+                <InfoOutlined /> <span>More Info</span>
               </button>
             </div>
           </div>
