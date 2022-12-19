@@ -6,9 +6,6 @@
     filter: hue-rotate(360deg);
   }
 }
-body {
-  margin: 0;
-}
 .navbar {
   width: 100%;
   color: white;
@@ -16,7 +13,7 @@ body {
   position: fixed;
   top: 0;
   z-index: 999;
-  background: black;
+  background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.5) 50%);
   display: flex;
 }
 .navbar-link {
@@ -29,6 +26,7 @@ body {
 .logo-navbar:hover {
   text-shadow: 0 0 20px #66a3ff;
   opacity: 0.8;
+  transition: all 0.5s ease;
 }
 .item-navbar {
   font-weight: bold;
@@ -39,15 +37,13 @@ body {
 }
 .logo-navbar span {
   font-size: 30px;
-  color: blue;
+  color: #50cfb7;
 }
 .logo-navbar span {
   animation: hue 15s infinite alternate;
 }
-.navbar.scrolled {
-  background-color: var(--main-color);
-}
 .navbar .container {
+  width: 100%;
   padding: 0px 50px;
   display: flex;
   align-items: center;
@@ -83,7 +79,6 @@ body {
 }
 .navbar .container .right .profile .options {
   display: none;
-  background-color: var(--main-color);
   border-radius: 5px;
 }
 .navbar .container .right .profile span {
@@ -110,12 +105,22 @@ body {
   background-position: center;
   background-size: cover;
 }
+::placeholder {
+  color: white;
+  opacity: 0.9;
+}
 .search-form input {
   width: 100px;
   height: 43px;
   background: transparent;
-  color: #fff;
+  color: white;
   border: none;
   outline: none;
   font-size: 14px;
+}
+
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
