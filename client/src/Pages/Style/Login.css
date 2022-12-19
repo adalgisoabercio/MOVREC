@@ -91,6 +91,7 @@
     cursor: pointer;
     text-align:center;
     padding-top:10px;
+  animation :none;
   }
   .login .container .loginButton-google img{
     margin-right:35px;
