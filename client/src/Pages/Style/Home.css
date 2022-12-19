@@ -1,4 +1,8 @@
-.Home-Container{
-    display:flex;
-    
+body {
+  margin: 0 auto;
+  background-color: #09192f;
+}
+.Home-Container {
+  display: flex;
+  flex-direction: column;
 }
