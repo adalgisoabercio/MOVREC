@@ -65,7 +65,20 @@
 .Trailer:hover {
   background: #50cfb7;
 }
+.close-video {
+  position: absolute;
+  z-index: 2;
+  bottom: 10px;
+  left: 10px;
+}
 
+.youtube-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
 @media only screen and (max-width: 1000px) {
   .left-content {
     padding-right: 50px;
