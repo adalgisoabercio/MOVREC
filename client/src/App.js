@@ -2,6 +2,7 @@
 // import leftbar from './components/leftbar.js';
 // import './style/App.css';
 import Home from "./Pages/Home";
+import MovieMedia from "./Pages/MovieMedia";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 // import  Recommendation from "./Components/MovieItem";
@@ -31,13 +32,15 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
         <Routes>
+          <Route path="/Movie" element={<MovieMedia />} />
+        </Routes>
+        <Routes>
           <Route path="/Login" element={<Login />} />
         </Routes>
         <Routes>
           <Route path="/Register" element={<Register />} />
         </Routes>
       </BrowserRouter>
-
     </div>
   );
 }
