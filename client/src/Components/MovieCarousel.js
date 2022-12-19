@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./style/MovieItem.css";
+import { getMovieCastData, getMovieData, getRecommendedMoviesData } from "../API/utils.js";
 import { DataMovie } from "./Data";
 
 const MovieRecommendation = () => {

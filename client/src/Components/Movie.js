@@ -1,5 +1,6 @@
 import React from "react";
 import { PlayArrow } from "@material-ui/icons";
+import { getMovieCastData, getMovieData, getRecommendedMoviesData } from "../API/utils.js";
 import Youtube from "react-youtube";
 // Images
 import "./style/Movie.css";

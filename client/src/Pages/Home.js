@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
 import Recommendation from '../Components/Recommendation';
-import MovieRecommendation from '../Components/MovieItem';
+import MovieRecommendation from '../Components/MovieCarousel';
 import './Style/Home.css';
 
 const Home = () => {

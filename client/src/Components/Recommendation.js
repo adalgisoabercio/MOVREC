@@ -52,7 +52,7 @@ const Recommendation = () => {
       >
         <div className="heroContent">
           <div className="leftContent">
-            <h1 className="title">Movie Name</h1>
+            <h1 className="title">Keanu Reaves</h1>
             <div className="buttons">
               <button className="play">
                 <InfoOutlined /> <span>More Info</span>
@@ -70,7 +70,7 @@ const Recommendation = () => {
       >
         <div className="heroContent">
           <div className="leftContent">
-            <h1 className="title">Movie Name</h1>
+            <h1 className="title">Star Wars</h1>
             <div className="buttons">
               <button className="play">
                 <InfoOutlined /> <span>More Info</span>

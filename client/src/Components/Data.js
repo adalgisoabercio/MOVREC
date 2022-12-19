@@ -1,3 +1,6 @@
+// import {  }
+ 
+
 export const DataMovie = [
   {
     id: 1,

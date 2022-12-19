@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Movie from "../Components/Movie";
 import Footer from "../Components/Footer";
-import MovieRecommendation from "../Components/MovieItem";
+import MovieRecommendation from "../Components/MovieCarousel";
 import "./Style/Home.css";
 
 const MovieMedia = () => {
