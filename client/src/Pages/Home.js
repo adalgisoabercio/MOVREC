@@ -9,6 +9,7 @@ const Home = () => {
         <div class="Home-Container">
             <Navbar />
             {/* <Recommendation /> */}
+            <Recommendation />
             <MovieRecommendation />
         </div>
     );
