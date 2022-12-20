@@ -1,6 +1,6 @@
 import tmdbapi from "./api/tmdbapi";
 
-const TMDB_API_KEY = "ENTER YOUR TMDB_API_KEY";
+const TMDB_API_KEY = "4361aabb5bf3112402c63239b362d17f";
 
 export const getMovieCastData = async (movie_id) => {
   const response = await tmdbapi.get(

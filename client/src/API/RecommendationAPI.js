@@ -3,8 +3,8 @@ import axios from 'axios';
 
 export default axios.create({
 
-    // baseURL: "https://kvgmrs-api.herokuapp.com/", -> Deployed Python Flask API
-    baseURL: "http://localhost:5000/", // LocalHost API
+    baseURL: "http://mindestiny19.pythonanywhere.com/",  // -> Deployed Python Flask API
+    // baseURL: "http://localhost:5000/", // LocalHost API
 
     headers: { "Content-Type": "multipart/form-data" },
     
